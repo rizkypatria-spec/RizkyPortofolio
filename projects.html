@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Rizky Patria</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm sticky-top">
+        <div class="container">
+            <a class="navbar-brand fw-bold text-primary" href="index.html">rizkypatria</a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navMenu">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                    <li class="nav-item"><a class="nav-link active" href="projects.html">Projects</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main class="py-5">
+        <div class="container">
+
+            <!-- Title -->
+            <div class="text-center mb-5">
+                <h1 class="fw-bold">Project Saya</h1>
+                <p class="text-muted">Beberapa project yang pernah saya kerjakan</p>
+            </div>
+
+            <!-- Project Grid -->
+            <div class="row g-4 mb-5">
+
+                <!-- Project 1 -->
+                <div class="col-md-6">
+                    <article class="card border-0 shadow-sm h-100 project-card">
+                        <img src="asset/project.jpeg" class="card-img-top project-img" alt="Project minyak jelantah">
+                        <div class="card-body p-4">
+                            <h2 class="h5 fw-bold">Website Minyak Jelantah</h2>
+                            <p class="text-muted">
+                                Website ini saya buat untuk membantu mengelola data minyak jelantah,
+                                mulai dari data pengguna, setoran minyak, hadiah, sampai proses verifikasi.
+                                Di dalamnya juga terdapat dashboard untuk melihat informasi
+                                dan aktivitas yang terjadi pada sistem.
+                            </p>
+                            <a href="#" class="text-primary fw-bold text-decoration-none">
+                                Lihat Project <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+                <!-- Project 2 -->
+                <div class="col-md-6">
+                    <article class="card border-0 shadow-sm h-100 project-card">
+                        <img src="asset/project2.jpeg" class="card-img-top project-img" alt="Project restaurant menu">
+                        <div class="card-body p-4">
+                            <h2 class="h5 fw-bold">Website Restaurant Menu</h2>
+                            <p class="text-muted">
+                                Website ini saya buat untuk mengelola dan menampilkan menu restaurant.
+                                Pengguna bisa melihat daftar makanan dan minuman yang tersedia,
+                                sedangkan bagian pengelolaan digunakan untuk mengatur data menu seperti
+                                nama menu, kategori, harga, stok, dan status menu.
+                            </p>
+                            <a href="#" class="text-primary fw-bold text-decoration-none">
+                                Lihat Project <i class="bi bi-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+                </div>
+
+            </div>
+
+            <!-- CONTACT FORM -->
+            <div class="row justify-content-center">
+                <div class="col-lg-8">
+                    <div class="card border-0 shadow-sm">
+                        <div class="card-body p-4 p-md-5">
+                            <h2 class="h4 fw-bold text-center mb-4">Hubungi Saya</h2>
+
+                            <form>
+                                <div class="mb-3">
+                                    <label for="nama" class="form-label fw-semibold">Nama</label>
+                                    <input type="text" class="form-control" id="nama"
+                                           placeholder="Masukkan nama Anda" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="email" class="form-label fw-semibold">Email</label>
+                                    <input type="email" class="form-control" id="email"
+                                           placeholder="Masukkan email Anda" required>
+                                </div>
+
+                                <div class="mb-3">
+                                    <label for="pesan" class="form-label fw-semibold">Pesan</label>
+                                    <textarea class="form-control" id="pesan" rows="5"
+                                              placeholder="Tulis pesan Anda..." required></textarea>
+                                </div>
+
+                                <button type="submit" class="btn btn-primary w-100 py-2">
+                                    <i class="bi bi-send-fill me-1"></i> Kirim Pesan
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <footer class="py-4 bg-white border-top mt-5">
+        <div class="container text-center">
+            <p class="text-muted mb-0">&copy; 2026 RIZKY PATRIA KUSUMAH. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

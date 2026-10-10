@@ -1,0 +1,91 @@
+/* ============ GLOBAL ============ */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    color: #1e293b;
+
+    /* Background */
+    background-color: #f8fafc;
+    background-image: url('image/background.jpeg');
+    background-size: cover;          /* Gambar menutupi seluruh layar */
+    background-position: center;     /* Posisi gambar di tengah */
+    background-repeat: no-repeat;    /* Tidak diulang */
+    background-attachment: fixed;    /* Tetap saat di-scroll */
+    background-blend-mode: overlay;  /* Opsional: campur warna */
+}
+/* ============ NAVBAR ============ */
+.navbar-brand {
+    font-size: 1.4rem;
+    letter-spacing: -0.5px;
+}
+
+.navbar .nav-link {
+    font-weight: 500;
+    margin-left: 10px;
+    transition: color 0.2s ease;
+}
+
+.navbar .nav-link:hover,
+.navbar .nav-link.active {
+    color: #2563eb !important;
+}
+
+/* ============ HERO ============ */
+.profile-img {
+    max-width: 320px;
+    border: 6px solid #fff;
+    box-shadow: 0 15px 40px rgba(37, 99, 235, 0.15);
+}
+
+/* ============ CARD ============ */
+.card {
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.08) !important;
+}
+
+/* ============ PROJECT ============ */
+.project-img {
+    height: 230px;
+    object-fit: cover;
+}
+
+/* ============ FORM ============ */
+.form-control:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 0.2rem rgba(37, 99, 235, 0.15);
+}
+
+/* ============ BUTTON ============ */
+.btn-primary {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-primary:hover {
+    background-color: #1d4ed8;
+    border-color: #1d4ed8;
+}
+
+.btn-outline-primary {
+    color: #2563eb;
+    border-color: #2563eb;
+}
+
+.btn-outline-primary:hover {
+    background-color: #2563eb;
+    border-color: #2563eb;
+}
+
+/* ============ RESPONSIVE ============ */
+@media (max-width: 576px) {
+    .profile-img {
+        max-width: 220px;
+    }
+
+    .display-4 {
+        font-size: 2rem;
+    }
+}
